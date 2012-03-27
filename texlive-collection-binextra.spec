@@ -1,4 +1,4 @@
-# revision 25012
+# revision 25648
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20120224
+Version:	20120327
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
@@ -69,6 +69,7 @@ Requires:	texlive-texloganalyser
 Requires:	texlive-texware
 Requires:	texlive-tie
 Requires:	texlive-tpic2pdftex
+Requires:	texlive-typeoutfileinfo
 Requires:	texlive-web
 
 %description
