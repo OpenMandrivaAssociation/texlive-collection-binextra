@@ -1,4 +1,4 @@
-# revision 27025
+# revision 28038
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
@@ -18,6 +18,7 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
 Requires:	texlive-a2ping
+Requires:	texlive-adhocfilelist
 Requires:	texlive-bibtex8
 Requires:	texlive-bibtexu
 Requires:	texlive-bundledoc
