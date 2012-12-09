@@ -1,4 +1,4 @@
-# revision 28038
+# revision 27025
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20121030
+Version:	20120810
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
@@ -18,7 +18,6 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
 Requires:	texlive-a2ping
-Requires:	texlive-adhocfilelist
 Requires:	texlive-bibtex8
 Requires:	texlive-bibtexu
 Requires:	texlive-bundledoc
@@ -89,3 +88,20 @@ programming, patgen, and the TeX Works Editor.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813900
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
++ Revision: 787846
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780192
+- Update to latest release.
+- Import texlive-collection-binextra
+- Import texlive-collection-binextra
+
