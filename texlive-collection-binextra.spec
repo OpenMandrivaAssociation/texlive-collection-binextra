@@ -1,4 +1,4 @@
-# revision 27025
+# revision 31638
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
@@ -18,6 +18,8 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
 Requires:	texlive-a2ping
+Requires:	texlive-adhocfilelist
+Requires:	texlive-arara
 Requires:	texlive-bibtex8
 Requires:	texlive-bibtexu
 Requires:	texlive-bundledoc
@@ -29,6 +31,7 @@ Requires:	texlive-cweb
 Requires:	texlive-de-macro
 Requires:	texlive-detex
 Requires:	texlive-dtl
+Requires:	texlive-dtxgen
 Requires:	texlive-dvi2tty
 Requires:	texlive-dviasm
 Requires:	texlive-dvicopy
@@ -42,11 +45,13 @@ Requires:	texlive-fragmaster
 Requires:	texlive-hyphenex
 Requires:	texlive-installfont
 Requires:	texlive-lacheck
+Requires:	texlive-latex-git-log
 Requires:	texlive-latex2man
 Requires:	texlive-latexdiff
 Requires:	texlive-latexfileversion
 Requires:	texlive-latexmk
 Requires:	texlive-latexpand
+Requires:	texlive-ltxfileinfo
 Requires:	texlive-listings-ext
 Requires:	texlive-match_parens
 Requires:	texlive-mkjobtexmf
@@ -54,9 +59,11 @@ Requires:	texlive-patgen
 Requires:	texlive-pdfcrop
 Requires:	texlive-pdfjam
 Requires:	texlive-pdftools
+Requires:	texlive-pfarrei
 Requires:	texlive-pkfix
 Requires:	texlive-pkfix-helper
 Requires:	texlive-purifyeps
+Requires:	texlive-pythontex
 Requires:	texlive-seetexk
 Requires:	texlive-sty2dtx
 Requires:	texlive-synctex
@@ -88,20 +95,3 @@ programming, patgen, and the TeX Works Editor.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813900
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
-+ Revision: 787846
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780192
-- Update to latest release.
-- Import texlive-collection-binextra
-- Import texlive-collection-binextra
-
