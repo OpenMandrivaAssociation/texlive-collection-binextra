@@ -1,4 +1,4 @@
-# revision 31638
+# revision 32150
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
@@ -51,6 +51,7 @@ Requires:	texlive-latexdiff
 Requires:	texlive-latexfileversion
 Requires:	texlive-latexmk
 Requires:	texlive-latexpand
+Requires:	texlive-latexindent
 Requires:	texlive-ltxfileinfo
 Requires:	texlive-listings-ext
 Requires:	texlive-match_parens
