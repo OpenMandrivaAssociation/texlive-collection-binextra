@@ -7,7 +7,7 @@
 Name:		texlive-collection-binextra
 Epoch:		1
 Version:	20131201
-Release:	3
+Release:	4
 Summary:	TeX auxiliary programs
 Group:		Publishing
 URL:		http://tug.org/texlive
