@@ -1,4 +1,4 @@
-# revision 32150
+# revision 32346
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -53,6 +53,7 @@ Requires:	texlive-latexmk
 Requires:	texlive-latexpand
 Requires:	texlive-latexindent
 Requires:	texlive-ltxfileinfo
+Requires:	texlive-ltximg
 Requires:	texlive-listings-ext
 Requires:	texlive-match_parens
 Requires:	texlive-mkjobtexmf
