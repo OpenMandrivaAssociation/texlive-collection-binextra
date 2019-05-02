@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20181204
+Version:	20190311
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
