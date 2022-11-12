@@ -1,18 +1,12 @@
-# revision 33155
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	20190311
+Version:	64447
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-binextra.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-binextra.r64447.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -93,7 +87,7 @@ programming, patgen, and the TeX Works Editor.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
