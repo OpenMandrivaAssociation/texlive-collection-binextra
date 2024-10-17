@@ -4,7 +4,7 @@ Version:	70681
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-binextra.r%{version}.tar.xz
 BuildArch:	noarch
