@@ -1,6 +1,6 @@
 Name:		texlive-collection-binextra
 Epoch:		1
-Version:	72338
+Version:	73049
 Release:	1
 Summary:	TeX auxiliary programs
 Group:		Publishing
